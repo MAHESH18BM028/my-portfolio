@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+/* =========================================================
+   Tailwind + PrimeNG CSS Layer Setup
+   ========================================================= */
+
+/* 1️⃣ Tailwind base (resets, normalize) */
+@layer tailwind-base {
+  @tailwind base;
+}
+
+/* 2️⃣ PrimeNG layer (styles injected automatically) */
+@layer primeng {
+  /* DO NOT ADD ANYTHING HERE */
+}
+
+/* 3️⃣ Tailwind components + utilities */
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: rgb(190, 217, 219);
+  height: 100vh;
+  overflow: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif !important;
+}
