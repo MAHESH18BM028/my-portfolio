@@ -36,7 +36,7 @@ export class FooterComponent {
    * Opens GitHub profile in a new window
    */
   openGitHub(): void {
-    const gitHubURL = 'https://github.com'; // Mock GitHub URL - will be updated with actual profile
+    const gitHubURL = 'https://github.com/MAHESH18BM028'; // Mock GitHub URL - will be updated with actual profile
     window.open(gitHubURL, '_blank');
   }
 
